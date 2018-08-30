@@ -4,8 +4,6 @@ package com.capgemini.question1;
 
 import java.util.ArrayList;
 
-import com.capgemini.question3.Student;
-
 public class Car implements Comparable<Car> {
 	@Override
 	public int hashCode() {
@@ -73,8 +71,12 @@ public class Car implements Comparable<Car> {
 		return "Car [make=" + make + ", model=" + model + ", year=" + year + ", price=" + price + "]";
 	}
 	
-	public int compareTo(Student o) {
-		return this.name.compareTo(o.name);
+	
+
+	@Override
+	public int compareTo(Car o) {
+		// TODO Auto-generated method stub
+		return this.make.compareTo(o.make);
 	}
 
 }
