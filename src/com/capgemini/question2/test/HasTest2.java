@@ -1,4 +1,4 @@
-package com.capgemini.day2.test;
+package com.capgemini.question2.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
