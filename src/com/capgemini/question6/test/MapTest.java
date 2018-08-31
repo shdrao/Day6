@@ -28,6 +28,8 @@ class MapTest {
 	                    ", Value = " + entry.getValue());
 			}
 			
+			//assertArrayEquals(new String {Watermelon,  Sapota, Tomato},(favorites.get("XYZ"));
+			
 			
 			
 			
